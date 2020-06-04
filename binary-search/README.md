@@ -22,3 +22,5 @@ while min is less than equal to max (so the bounds don't get crossed over)
 guess could not be found
     therefore, return -1 (arbitrary value)
 ```
+
+Emoji binary search is based on [this freeCodeCamp article](https://www.freecodecamp.org/news/binary-search-algorithm-7170ae244438/).  

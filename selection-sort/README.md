@@ -1,6 +1,5 @@
 # Selection Sort
 Selection sort in Python.  
-O(n) = n^2
 
 Pseudocode:  
 ```text

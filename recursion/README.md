@@ -44,6 +44,14 @@ compute power by:
         return y * y
 ```
 
+Towers of Hanoi notes:
+- check if number of disks is zero, therefore must be possible
+- set a spare peg, and 'solve' Hanoi for number of disks, but minus one, to that spare peg
+    - this will hanoify until that peg
+- move the bottom disk (not necessarily 'bottom', just bottom of current stack), which is now exposed to the desired peg
+- resolve the hanoi from the spare peg to the target peg
+
 Notes:
 - ensure a base case is set
 - ensure recursion iterates with steps and isn't doing the same thing over and over again
+- less efficient than iteration, and also less intuitive so why would I use this smh

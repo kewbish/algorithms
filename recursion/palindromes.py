@@ -7,6 +7,6 @@ def isPalindrome(s):
 
 
 st = isPalindrome("rotor")
-assert st == True, "Should be True"
+assert st, "Should be True"
 print("Rotor is a palindrome" if isPalindrome(
     "rotor") else "Rotor is not a palindrome")

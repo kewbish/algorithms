@@ -30,6 +30,20 @@ compute palindrome by:
     return palindrome? of string with first and last chars stripped
 ```
 
+Powers:
+```text
+compute power by:
+    if exp is zero:
+        return 1
+    if exp is negative:
+        return reciprocal of power function
+    if exp is odd:
+        return x * power(x, exp-1)
+    else exp is even:
+        set y to power(x, n/2)
+        return y * y
+```
+
 Notes:
 - ensure a base case is set
 - ensure recursion iterates with steps and isn't doing the same thing over and over again

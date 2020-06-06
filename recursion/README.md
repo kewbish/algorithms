@@ -20,6 +20,16 @@ compute factorial by:
     else multiplying function
 ```
 
+Palindromes:
+```text
+compute palindrome by:
+    if length of string is zero or one:
+        return true
+    else if string's last and first characters do not match:
+        return false
+    return palindrome? of string with first and last chars stripped
+```
+
 Notes:
 - ensure a base case is set
 - ensure recursion iterates with steps and isn't doing the same thing over and over again

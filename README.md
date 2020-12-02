@@ -1,7 +1,7 @@
-# Khan Academy Algorithms
-Completed during June 2020 with Python.  
-Released under GPLv3 (if you want to use these :shrugging:).  
-These implementations are the work of [Kewbish](https://kewbish.github.io).  
+# Algorithms
+A repository in progress, June 2020 - current.  
+Created mostly in Python.  
+Implemented by [Kewbish](https://kewbi.sh).  
 
 ## Table of Contents
 Algorithm | Implementations
@@ -12,3 +12,4 @@ Insertion Sort | [Insertion Sort](./insertion-sort/README.md)
 Recursion | [Factorials, Palindromes, Powers](./recursion/README.md)
 Merge Sort | [Merge Sort](./merge-sort/README.md)
 Quick Sort | [Quick Sort](./quick-sort/README.md)
+Advent of Code 2020 | [AoC2020](./aoc2020/README.md)

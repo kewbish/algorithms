@@ -1,12 +1,13 @@
 with open("input.txt") as x:
     lines = x.read().splitlines()
-    lines = [(int(x), i) for i, x in enumerate(lines)]
+    lines = [(int(x) * 811589153, i) for i, x in enumerate(lines)]
 
 original_numbers = lines.copy()
-for number in original_numbers:
-    position = lines.index(number)
-    lines.pop(position)
-    lines.insert((position + int(number[0])) % len(lines), number)
+for _ in range(10):
+    for number in original_numbers:
+        position = lines.index(number)
+        lines.pop(position)
+        lines.insert((position + int(number[0])) % len(lines), number)
 
 zero_index = 0
 for i in range(len(lines)):
